@@ -80,3 +80,16 @@ curl -X POST 44.222.185.134:3000 -H "Content-Type: application/json" -d '{"numbe
 
 el aplicativo esta alojado sobre un servidor EC2 AWS , al cuál se puede mandar un CURL como el siguiente:
 
+
+Para levantar el Docker container, ejecutar el siguiente comando:
+
+```bash
+sudo docker-compose up --build --force-recreate -d
+```
+
+Resutlado:
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
